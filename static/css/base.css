@@ -1,0 +1,70 @@
+/* General Styles */
+body {
+    background-color: #e9d8f7; /* Lila claro para el fondo */
+    color: #4b3869; /* Texto en tono púrpura oscuro para buen contraste */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #d6b3f9; /* Púrpura pastel para el navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar-brand {
+    color: #4b3869 !important; /* Púrpura oscuro para el texto del logo */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #5a4a77 !important; /* Púrpura intermedio para los enlaces */
+    margin: 0 10px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #ffffff !important; /* Blanco al pasar el mouse */
+    background-color: #a382c3; /* Fondo púrpura suave al pasar el mouse */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(75, 56, 105, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Container Styles */
+.container {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para las áreas de contenido */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin-top: 20px;
+}
+
+/* Links in Content */
+a {
+    color: #7c5fa1; /* Púrpura más claro para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4b3869; /* Más oscuro al pasar el mouse */
+    text-decoration: underline;
+}
+
+/* Footer (Optional) */
+footer {
+    background-color: #d6b3f9; /* Mismo tono que el navbar para armonía */
+    color: #4b3869;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-top: 2px solid #c7a1e4; /* Línea superior para separación */
+}
