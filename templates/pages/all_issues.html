@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Issues{% endblock title %}
+{% block content %}
+<h1>{{ title }} Issues</h1>
+<p>Total Issues: {{ issue_list.count }}</p>
+{% for issue in issue_list %}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">{{ issue.name }}</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">{{ issue.summary }}</h6>
+        <p class="card-text">{{ issue.created_on }}</p>
+
+        <a href="{{ issue.get_absolute_url }}" class="card-link">View Details</a>
+    </div>
+</div>
+{% endfor %}
+{% endblock content %}
